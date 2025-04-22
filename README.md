@@ -41,7 +41,7 @@ La aplicación es bastante obstinada y viene con un conjunto de características
 Primero, clone el repositorio.
 
 ```bash  
-git clone git@github.com:amitmerchant1990/linksnatch.git
+git clone https://github.com/CRISHFAS/linksnatch
 ```
 
 A continuación, instale las dependencias.
