@@ -121,13 +121,13 @@ export function AppHeader() {
 
                                 <div id="selectThemeDropdown" class="hs-dropdown-menu hs-dropdown-open:opacity-100 mt-2 hidden z-10 transition-[margin,opacity] opacity-0 duration-300 mb-2 origin-bottom-left bg-white shadow-md rounded-lg p-2 space-y-1 dark:bg-gray-800 dark:border dark:border-gray-700 dark:divide-gray-700">
                                     <a class="hs-auto-mode-active:bg-gray-100 flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="javascript:;" data-hs-theme-click-value="auto">
-                                        Auto (system default)
+                                    Automático (predeterminado del sistema)
                                     </a>
                                     <a class="hs-default-mode-active:bg-gray-100 flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="javascript:;" data-hs-theme-click-value="default">
-                                        Default (light mode)
+                                    Predeterminado (modo claro)
                                     </a>
                                     <a class="hs-dark-mode-active:bg-gray-700 flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="javascript:;" data-hs-theme-click-value="dark">
-                                        Dark
+                                    Oscuro
                                     </a>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ export function AppHeader() {
                 </div>
                 <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
                     <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
-                        <Link href="/about" className={`font-medium text-violet-800 md:py-6 dark:text-violet-100 dark:md:text-gray-900`} aria-current="page">About</Link>
+                        <Link href="/about" className={`font-medium text-violet-800 md:py-6 dark:text-violet-100 dark:md:text-gray-900`} aria-current="page">Acerca de</Link>
                     </div>
                 </div>
             </nav>

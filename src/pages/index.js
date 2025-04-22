@@ -130,7 +130,7 @@ export default function Home() {
     const links = JSON.stringify(JSON.parse(localStorage.getItem('links')))
 
     if (links === "null" || links === "[]") {
-      toast.error('No bookmarks to be exported!')
+      toast.error('No hay marcadores para exportar!')
       return
     }
 
@@ -227,7 +227,7 @@ export default function Home() {
           <input
             type="text"
             className={`w-full border bg-gray-100 border-slate-300 dark:border-slate-600 outline-none focus:outline-none focus:ring lg:flex items-center text-sm sm:text-lg md:text-lg leading-6 text-slate-600 dark:text-slate-300 rounded-2xl shadow-sm py-4 px-4 pr-3 hover:ring-slate-300 dark:bg-slate-800 dark:highlight-white/5 dark:hover:bg-slate-700 ${hasValidUrl ? "focus:ring-green-300 ring-green-300" : ""}`}
-            placeholder="Paste your link here or search bookmarks..."
+            placeholder="Pegue su enlace aquí o busque en marcadores..."
             id="url"
             name="url"
             value={url}
@@ -242,7 +242,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15m0-3l-3-3m0 0l-3 3m3-3V15" />
               </svg>
-              Export bookmarks
+              Exportar marcadores
             </a>
             <input
               style={{display: 'none'}}
@@ -254,7 +254,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25" />
               </svg>
-              Import bookmarks
+              Importar marcadores
             </a>
           </div>
           
@@ -266,7 +266,7 @@ export default function Home() {
 
           {showSpinner && (
             <div class="animate-spin inline-block w-6 h-6 border-[3px] border-current border-t-transparent text-violet-400 rounded-full absolute right-3 top-4 sm:top-5 md:top-5" role="status" aria-label="loading">
-              <span class="sr-only">Loading...</span>
+              <span class="sr-only">Cargando...</span>
             </div>
           )}
         </div>

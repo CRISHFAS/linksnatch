@@ -37,7 +37,7 @@ export const fetchUrlMetadata = async (url) => {
         )
 
         if (!response.ok) {
-            toast.error('Oops! Bad URL.')
+            toast.error('Ups! URL incorrecta.')
             return false
         }
 
@@ -66,7 +66,7 @@ export const fetchUrlMetadata = async (url) => {
 
 export function copyLink(url) {
     navigator.clipboard.writeText(url)
-    toast.success('Link copied to clipboard!')
+    toast.success('Enlace copiado al portapapeles!')
 }
 
 export function formatUrl(string) {
@@ -93,7 +93,7 @@ export function saveTextAsFile(textToWrite, fileNameToSaveAs) {
     let textFileAsBlob = new Blob([textToWrite], { type: 'application/json' });
     let downloadLink = document.createElement('a');
     downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = 'Download File';
+    downloadLink.innerHTML = 'Descargar archivo';
 
     if (window.webkitURL != null) {
         downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
