@@ -17,12 +17,7 @@ export default function About() {
 
                     <p class="mt-4 text-lg text-slate-700 dark:text-slate-400">
                     Esta es una aplicación de marcadores muy sencilla que te permite guardar los enlaces en tu dispositivo mientras viajas.
-                    </p>
-
-                    <p class="mt-4 text-lg text-slate-700 dark:text-slate-400">
-                    Construí <span class="px-2 py-1 dark:text-slate-700 bg-rotate-45 text-md font-bold border-none rounded-md bg-gradient-to-r from-green-200 to-green-200">LinkSnatch</span> porque quería algo realmente sencillo para guardar enlaces que quería leer más tarde. No quería tener que crear una cuenta, ni instalar una extensión del navegador, ni (definitivamente) usar un servicio de marcadores que me rastreara.
-                        Quería algo sencillo que funcionara. ¡Y aquí estoy!
-                    </p>
+                    </p>                    
 
                     <p class="mt-4 text-lg text-slate-700 dark:text-slate-400">
                     La aplicación es bastante <i>dogmática</i> y viene con un conjunto de características mínimas que necesitaría:
@@ -35,25 +30,10 @@ export default function About() {
                         <li>Guarde y busque enlaces, todo desde un solo lugar.</li>
                         <li>Modo oscuro.</li>
                         <li>No te rastrea.</li>
-                        <li>Es <a href="https://github.com/amitmerchant1990/linksnatch" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">open source</a>.</li>
+                        <li>Es <a href="https://github.com/CRISHFAS/linksnatch" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">open source</a>.</li>
                     </ul>
-
-                    <p class="mt-4 text-lg text-slate-700 dark:text-slate-400">
-                    Empecé a construirlo para solucionar mi propia picazón, pero luego me di cuenta de que alguien podría necesitar algo así.
-                    </p>
-                        
-                    <hr class="mt-4"/>
-
-                    <p class="mt-4 text-lg text-slate-700 dark:text-slate-400">
-                        Explore more projects: 
-                    </p>
-
-                    <ul class="list-disc mt-4 ml-10 text-lg text-slate-700 dark:text-slate-400">
-                        <li><a href="https://notepad.js.org/" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">Notepad — Offline Capable</a></li>
-                        <li><a href="https://markdownify.js.org/" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">Markdownify</a></li>
-                        <li><a href="https://github.com/amitmerchant1990/consolepad" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">ConsolePad</a></li>
-                        <li><a href="https://github.com/amitmerchant1990/reverie" target="_blank" class="text-gray-700 dark:text-gray-300 dark:hover:text-purple-200 font-bold hover:text-purple-700">Reverie</a></li>
-                    </ul>
+                                            
+                    <hr class="mt-4"/>                    
                 </div>
             </div>
         </>
