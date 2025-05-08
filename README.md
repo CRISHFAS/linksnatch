@@ -6,10 +6,6 @@
   <h1 align="center">LinkSnatch</h1>
 </a>
 
-<p align="center">
-  Una aplicación de marcadores sencilla y sin esfuerzo que te permite guardar los enlaces de tu dispositivo sobre la marcha.
-</p>
-
 ![](/public/linksnatch-cover.png)
 
 ## Introduction
